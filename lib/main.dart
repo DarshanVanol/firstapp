@@ -1,4 +1,6 @@
 import 'package:firstapp/dashboard.dart';
+import 'package:firstapp/login.dart';
+import 'package:firstapp/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(appBarTheme: AppBarTheme(backgroundColor: Colors.amber, foregroundColor: Colors.white)),
       
       debugShowCheckedModeBanner: false,
-      home: Dashboard(),
+      home: Login(),
     );
   }
 }
